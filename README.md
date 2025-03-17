@@ -46,11 +46,16 @@ Before you begin, ensure you have the following installed:
       - Name: `learnMore`
       - Key: `learnMore`
       - Variations: boolean (true/false)
+  
+   <img width="1488" alt="image" src="https://github.com/user-attachments/assets/a84555c6-9181-4f1e-94f7-0167c00c0f1b" />
+
    
    d. Replace the SDK key in `src/main.tsx`:
    ```typescript
    const clientSideID = 'YOUR_CLIENT_SIDE_ID'; // Replace with your SDK key
    ```
+
+<img width="1484" alt="image" src="https://github.com/user-attachments/assets/4484a2e5-74c0-477b-adde-fa91018b5c4c" />
 
 4. **Configure Heap Analytics:**
    

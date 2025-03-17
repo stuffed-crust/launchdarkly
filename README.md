@@ -108,6 +108,17 @@ Heap Analytics is integrated to track user interactions. The script in `index.ht
 - Button clicks
 - User role changes
 
+- ## 📊 Slack Integration
+LaunchDarkly is integrated with Slack to provide real-time notifications for our development team when feature flag changes occur. The integration was essential for maintaining clear communication across our distributed team, allowing everyone to stay informed about feature releases, rollbacks, and experimental results without needing to constantly check the LaunchDarkly dashboard. This has significantly improved our team's response time to any issues that arise from feature deployments, as critical alerts are immediately pushed to dedicated Slack channels based on their urgency and relevance.
+LaunchDarkly is configured to send notifications to a Slack channel when:
+
+Feature flags are toggled on/off
+Targeting rules are changed
+Experiments are started or completed
+
+<img width="1710" alt="Screenshot 2025-03-16 at 23 43 43" src="https://github.com/user-attachments/assets/1f1482db-aaa1-4b40-90fb-8311cbb4a997" />
+
+
 ## 🏭 Building for Production
 
 Create a production build:
